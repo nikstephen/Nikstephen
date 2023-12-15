@@ -289,21 +289,6 @@ a {
     top: 50%;
     opacity: 1; }
 
-.grid-item-wrapper:before {
-  content: '';
-  display: block;
-  background: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: all .3s ease;
-  opacity: 0; }
-
-.grid-item-wrapper:hover:before {
-  opacity: 1; }
-
 .grid-info {
   position: absolute;
   top: 0;
